@@ -1,0 +1,26 @@
+table{
+	&.fallback{
+		background: $gray;
+		tbody{
+			tr{
+				th{
+					padding-bottom: 4px;
+					padding-top: 4px;
+					small{
+						color: $gray--darker;
+					}
+					table{
+						tbody{
+							tr{
+								th{
+									p{} 
+								}
+							}
+						}
+					}
+				}
+				td{}
+			}
+		}
+	}
+}
